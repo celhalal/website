@@ -1,0 +1,51 @@
+/* Parent, office, and logo: used to create a layout where we
+    can stack images without collision
+*/
+parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .office {
+    position: absolute;
+    top: -1%;
+    left: -1%;
+    max-height: 60%;
+  }
+  .logo {
+    position: absolute;
+    left: -40%;
+    top: 30px;
+    left: 55px;
+    height: 55px;
+  }
+
+/* h1 & h2: used for layout out the text on the backgroun image on the HTML*/
+h1{
+    position: absolute;
+    margin-top: 20%;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 100%;
+    text-decoration: none;
+    color:white;
+}
+h2{
+    position: absolute;
+    color: white;
+    margin-top: 24%;
+    margin-left: 4%;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 250%;
+}
+container{
+    position: relative;
+    top: 10;
+    left: 10;
+}
+.myPic{
+    width:40%;
+    margin-top: 55%;
+    left: -20%;
+}

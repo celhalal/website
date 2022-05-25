@@ -2,6 +2,26 @@
     can stack images without collision
 */
 parent {
+<<<<<<< HEAD
+  top: 0;
+  left: 0;
+  display: block;
+  }
+  .office {
+  position: relative;
+  left: -1%;
+  max-height: 450px;
+  display: block;
+  object-fit: cover;
+  }
+  .logo {
+  position: absolute;
+  left: -40%;
+  top: 30px;
+  left: 2.5%;
+  height: 55px;
+  display: block;
+=======
     position: relative;
     top: 0;
     left: 0;
@@ -18,10 +38,83 @@ parent {
     top: 30px;
     left: 55px;
     height: 55px;
+>>>>>>> 3d8ade67993433ff8f4b4252ddc465146d7c6aeb
   }
 
 /* h1 & h2: used for layout out the text on the backgroun image on the HTML*/
 h1{
+<<<<<<< HEAD
+  position: absolute;
+  color:white;
+  font-family: sans-serif;
+  margin-top: -270px;
+  margin-left: -1%;
+  font-weight: 200;
+  font-size: 100%;
+  text-decoration: none;
+}
+h2{
+  position: absolute;
+  color: white;
+  font-family: sans-serif;
+  margin-top: -250px;
+  margin-left: 3%;
+  font-weight: 300;
+  font-size: 250%;
+}
+container{
+  position: relative;
+  top: 10;
+  left: 10;
+}
+.myPic{
+  display: flex;
+  float: left;
+  justify-content: center;
+  max-width: 350px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+h3{
+  position:relative;
+  color: grey;
+  font-family: sans-serif;
+  font-weight: 550;
+  font-size: 150%;
+  margin-left: 200px;
+}
+h4{
+  position:relative;
+  color: grey;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 120%;
+  margin-left: 200px;
+  margin-top: -10px;
+}
+h5{
+  position:relative;
+  color: grey;
+  font-family: sans-serif;
+  font-weight: 350;
+  font-size: 100%;
+  margin-left: 200px;
+  max-width: 700px;
+}
+ul{
+  columns: 2;
+}
+
+.footer{
+  position: absolute;
+  bottom: -1%;
+  width: 101%;
+  left: -1%;
+  height: 10%;
+  background:black;
+  text-align: center;
+  color: white;
+=======
     position: absolute;
     margin-top: 20%;
     font-family: sans-serif;
@@ -48,4 +141,5 @@ container{
     width:40%;
     margin-top: 55%;
     left: -20%;
+>>>>>>> 3d8ade67993433ff8f4b4252ddc465146d7c6aeb
 }

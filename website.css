@@ -54,39 +54,49 @@ container{
   max-width: 350px;
   vertical-align: middle;
   box-sizing: border-box;
+  margin-top: -40px;
 }
-h3{
+#name{
+  position:absolute;
+  color: grey;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 150%;
+  margin-left: 400px;
+  margin-top: -40px;
+}
+#role{
   position:relative;
   color: grey;
   font-family: sans-serif;
   font-weight: 550;
-  font-size: 150%;
-  margin-left: 200px;
-}
-h4{
-  position:relative;
-  color: grey;
-  font-family: sans-serif;
-  font-weight: 500;
   font-size: 120%;
-  margin-left: 200px;
-  margin-top: -10px;
+  margin-left: 400px;
+  margin-top: 70px;
 }
-h5{
+#description{
   position:relative;
   color: grey;
   font-family: sans-serif;
-  font-weight: 350;
+  font-weight: 400;
   font-size: 100%;
-  margin-left: 200px;
+  margin-left: 400px;
   max-width: 700px;
+  margin-top: 15px;
 }
-ul{
+#list{
+  position:fixed;
+  color: grey;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 100%;
+  margin-left: 425px;
+  max-width: 700px;
   columns: 2;
 }
-
 .footer{
-  position: absolute;
+  position: fixed;
+  font-family: sans-serif;
   bottom: -1%;
   width: 101%;
   left: -1%;

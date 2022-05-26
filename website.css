@@ -2,7 +2,6 @@
     can stack images without collision
 */
 parent {
-<<<<<<< HEAD
   top: 0;
   left: 0;
   display: block;
@@ -21,29 +20,10 @@ parent {
   left: 2.5%;
   height: 55px;
   display: block;
-=======
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-  .office {
-    position: absolute;
-    top: -1%;
-    left: -1%;
-    max-height: 60%;
-  }
-  .logo {
-    position: absolute;
-    left: -40%;
-    top: 30px;
-    left: 55px;
-    height: 55px;
->>>>>>> 3d8ade67993433ff8f4b4252ddc465146d7c6aeb
   }
 
 /* h1 & h2: used for layout out the text on the backgroun image on the HTML*/
 h1{
-<<<<<<< HEAD
   position: absolute;
   color:white;
   font-family: sans-serif;
@@ -114,32 +94,4 @@ ul{
   background:black;
   text-align: center;
   color: white;
-=======
-    position: absolute;
-    margin-top: 20%;
-    font-family: sans-serif;
-    font-weight: 200;
-    font-size: 100%;
-    text-decoration: none;
-    color:white;
-}
-h2{
-    position: absolute;
-    color: white;
-    margin-top: 24%;
-    margin-left: 4%;
-    font-family: sans-serif;
-    font-weight: 300;
-    font-size: 250%;
-}
-container{
-    position: relative;
-    top: 10;
-    left: 10;
-}
-.myPic{
-    width:40%;
-    margin-top: 55%;
-    left: -20%;
->>>>>>> 3d8ade67993433ff8f4b4252ddc465146d7c6aeb
 }

@@ -28,7 +28,6 @@ strings.appendChild(h5);
 
 
 
-
 // insert ul of languages
 let list = document.getElementById('teck-stack');
 internInfo.languages.forEach((el)=>{

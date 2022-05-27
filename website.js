@@ -7,6 +7,7 @@
 
 // Created an object with arrays that contain information about myself
 // More efficient to store it this way for asy access and reduce the amount of variables
+
 const internInfo = {
     name: 'Cathy El-Halal',
     role: 'Development Intern',

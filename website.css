@@ -1,6 +1,9 @@
-/* Parent, office, and logo: used to create a layout where we
-    can stack images without collision
+/* Parent, office, and logo: used to create a layout where we can stack images without collision
+* parent: background set up
+* office: will display the office image that is the background for half of the webpage
+* logo: will display a logo in the top left corner (linked to another webpage & has an alert before switching pages)
 */
+
 parent {
   top: 0;
   left: 0;
@@ -23,7 +26,7 @@ parent {
   display: block;
   }
 
-/* h1 & h2: used for layout out the text on the backgroun image on the HTML*/
+/* h1 & h2: used for layout out the text on the backgroun image on the HTML */
 h1{
   position: absolute;
   color:white;
@@ -43,58 +46,65 @@ h2{
   font-weight: 300;
   font-size: 250%;
 }
-container{
-  position: relative;
-  top: 10;
-  left: 10;
-}
+
+/* myPic represents the image I am using for myself */
 .myPic{
-  display: flex;
+  display: block;
+  overflow: hidden;
   float: left;
   justify-content: center;
   max-width: 350px;
-  vertical-align: middle;
   box-sizing: border-box;
-  margin-top: -40px;
+  margin-top: -50px;
+  margin-left: 5%;
 }
+
+/* name represents the my name on the webpage that has different styles to it */
 #name{
   position:absolute;
   color: grey;
   font-family: sans-serif;
   font-weight: 600;
   font-size: 150%;
-  margin-left: 400px;
-  margin-top: -40px;
+  margin-left: 450px;
+  margin-top: -48px;
 }
+/* role represents the my role on the webpage (under my name) that has different styles to it */
 #role{
   position:relative;
   color: grey;
   font-family: sans-serif;
   font-weight: 550;
   font-size: 120%;
-  margin-left: 400px;
-  margin-top: 70px;
+  margin-left: 450px;
+  margin-top: 80px;
 }
+
+/* description represents the texts on the webpage (my history and knowledge) that has different styles to it */
 #description{
   position:relative;
   color: grey;
   font-family: sans-serif;
   font-weight: 400;
   font-size: 100%;
-  margin-left: 400px;
+  margin-left: 450px;
   max-width: 700px;
-  margin-top: 15px;
+  margin-top: 10px;
 }
+
+/* list represents the two columns on the webpage (code languages) */
 #list{
   position:fixed;
   color: grey;
   font-family: sans-serif;
   font-weight: 400;
   font-size: 100%;
-  margin-left: 425px;
+  margin-left: 475px;
   max-width: 700px;
   columns: 2;
 }
+
+/* footer represents the bottom of the webpage */
 .footer{
   position: fixed;
   font-family: sans-serif;

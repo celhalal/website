@@ -10,6 +10,7 @@ parent {
   position: relative;
   left: -1%;
   max-height: 450px;
+  width: 105%;
   display: block;
   object-fit: cover;
   }

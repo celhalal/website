@@ -7,7 +7,6 @@ const internInfo = {
     credits: ['Built and Designed by Cathy El-Halal', 'All rights reserved. ©']
 };
 
-
 // insert name into h3
 const data = document.getElementById("metadata");
 const name = document.createElement('div');
@@ -47,4 +46,8 @@ internInfo.credits.forEach((el)=>{
     var foot = document.createElement('footer');
     foot.innerText = el;
     final.appendChild(foot);
-})
+});
+
+const alertMessage = () => {
+    alert("Switching to Infor's Home Page");
+};

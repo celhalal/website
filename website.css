@@ -45,18 +45,23 @@ h2{
   margin-left: 3%;
   font-weight: 300;
   font-size: 250%;
+  max-width: 65%;
 }
 
 /* myPic represents the image I am using for myself */
 .myPic{
   display: block;
-  overflow: hidden;
   float: left;
-  justify-content: center;
+  width: 100%;
   max-width: 350px;
   box-sizing: border-box;
   margin-top: -50px;
   margin-left: 5%;
+}
+
+#container{
+  min-height: 300px;
+  padding-top: 4em;
 }
 
 /* name represents the my name on the webpage that has different styles to it */
@@ -67,8 +72,9 @@ h2{
   font-weight: 600;
   font-size: 150%;
   margin-left: 450px;
-  margin-top: -48px;
+  margin-top: -50px;
 }
+
 /* role represents the my role on the webpage (under my name) that has different styles to it */
 #role{
   position:relative;
@@ -77,7 +83,6 @@ h2{
   font-weight: 550;
   font-size: 120%;
   margin-left: 450px;
-  margin-top: 80px;
 }
 
 /* description represents the texts on the webpage (my history and knowledge) that has different styles to it */
@@ -89,7 +94,6 @@ h2{
   font-size: 100%;
   margin-left: 450px;
   max-width: 700px;
-  margin-top: 10px;
 }
 
 /* list represents the two columns on the webpage (code languages) */
@@ -102,6 +106,42 @@ h2{
   margin-left: 475px;
   max-width: 700px;
   columns: 2;
+}
+
+
+@media screen and (max-width: 650px){
+  h1{
+    margin-top: -155px;
+    margin-left: -1.5%;
+  }
+  h2{
+    margin-top: -135px;
+    margin-left: 6%;
+    font-size: 200%;
+  }
+
+  #container{
+    margin-top: 2em;
+  }
+  .myPic{
+    text-align: justify;
+    max-width: 85%;
+    padding-bottom: 13%;
+  }
+  #name{
+    display: block;
+    margin-top: 43%;
+    margin-left: 8%;
+  }
+  #role {
+    margin: 8%;
+  }
+  #description{
+    margin: 8%;
+  }
+  #list{
+    margin: 8%;
+  }
 }
 
 /* footer represents the bottom of the webpage */

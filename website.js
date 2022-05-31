@@ -64,5 +64,3 @@ internInfo.credits.forEach((el)=>{
 const alertMessage = () => {
     alert("Switching Webpages");
 };
-
-

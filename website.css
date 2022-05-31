@@ -113,14 +113,6 @@ h2{
   html, body{
     overflow-y: scroll;
   }
-  .office {
-    position: relative;
-    left: -1%;
-    max-height: 550px;
-    width: 105%;
-    display: block;
-    object-fit: cover;
-    }
   h1{
     margin-top: -155px;
     margin-left: -1.5%;

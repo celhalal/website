@@ -4,8 +4,6 @@
 * logo: will display a logo in the top left corner (linked to another webpage & has an alert before switching pages)
 */
 
-
-
 parent {
   top: 0;
   left: 0;
@@ -14,7 +12,7 @@ parent {
   .office {
   position: relative;
   left: -1%;
-  max-height: 450px;
+  max-height: 500px;
   width: 105%;
   display: block;
   object-fit: cover;
@@ -115,6 +113,14 @@ h2{
   html, body{
     overflow-y: scroll;
   }
+  .office {
+    position: relative;
+    left: -1%;
+    max-height: 550px;
+    width: 105%;
+    display: block;
+    object-fit: cover;
+    }
   h1{
     margin-top: -155px;
     margin-left: -1.5%;
@@ -124,7 +130,6 @@ h2{
     margin-left: 6%;
     font-size: 200%;
   }
-
   #container{
     margin-top: 2em;
   }
@@ -146,7 +151,6 @@ h2{
     margin-top: -2%;
     margin-left: 10%;
   }
-
   .clear{
     clear: both;
     height: auto;

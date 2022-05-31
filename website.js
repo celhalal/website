@@ -16,7 +16,6 @@ const internInfo = {
     credits: ['Built by Cathy El-Halal', 'Designed by Infor', 'All rights reserved. ©']
 };
 
-
 // insert my name into a newly created div (nested in the metadata div)
 const data = document.getElementById("metadata");   // metadata is a div in my HTML
 const name = document.createElement('div');         // create a div inside the metadata div

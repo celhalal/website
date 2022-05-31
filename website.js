@@ -12,8 +12,8 @@ const internInfo = {
     name: 'Cathy El-Halal',
     role: 'Development Intern',
     history: ['Cathy El-Halal is currently a junior doing a double major in Computer Science and Business at Wheaton College, MA. Cathy has a great interest in full-stack development and artificual intelligence.','Some of the technologies Cathy has been working with:'],
-    languages: ['C++', 'Python', 'SQL', 'MIPS', 'JavaScript', 'CSS', 'HTML', 'Shell Script'],
-    credits: ['Built and Designed by Cathy El-Halal', 'All rights reserved. ©']
+    languages: ['C++', 'MIPS', 'SQL', 'Python', 'HTML', 'CSS', 'Shell', 'JavaScript'],
+    credits: ['Built by Cathy El-Halal', 'Designed by Infor', 'All rights reserved. ©']
 };
 
 
@@ -48,14 +48,15 @@ internInfo.languages.forEach((el)=>{
     languages.appendChild(li);                  // need to append it to actually display
 });
 
-// insert credits
 var final = document.getElementById('footer');
+// insert credits
 internInfo.credits.forEach((el)=>{
     var newLine = document.createElement('br'); // new line in HTML (/n) then append it
     final.appendChild(newLine);
-    var foot = document.createElement('footer');
+    var foot = document.createElement('footText');
     foot.innerText = el;
-    final.appendChild(foot);                    // need to append it to actually display
+    final.appendChild(foot); // need to append it to actually display
+
 });
 
 // Function to alert the user that they are moving to another page when they click the infor logo on the top left corner.

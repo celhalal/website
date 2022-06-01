@@ -4,8 +4,6 @@
 * logo: will display a logo in the top left corner (linked to another webpage & has an alert before switching pages)
 */
 
-
-
 parent {
   top: 0;
   left: 0;
@@ -14,8 +12,8 @@ parent {
   .office {
   position: relative;
   left: -1%;
-  max-height: 450px;
-  width: 105%;
+  max-height: 500px;
+  width: 101.8%;
   display: block;
   object-fit: cover;
   }
@@ -112,9 +110,11 @@ h2{
 
 /* if screen is at a certain width, texts and images will be resized to accomodate to the changes*/
 @media screen and (max-width: 650px){
+  /* enable scrolling when webpage is resized */
   html, body{
     overflow-y: scroll;
   }
+  /* fixes format of headers when webpage is resized */
   h1{
     margin-top: -155px;
     margin-left: -1.5%;
@@ -133,6 +133,8 @@ h2{
     max-width: 85%;
     padding-bottom: 13%;
   }
+
+    /* fixes format of details when webpage is resized */
   #name{
     display: block;
     margin-top: 49%;
@@ -151,8 +153,10 @@ h2{
     clear: both;
     height: auto;
   }
+
+    /* keeps footer at the bottom of the page as the height of the webpage increases */
   #footer{
-    margin-bottom: -30%;
+    margin-bottom: -21%;
   }
 }
 
@@ -164,7 +168,7 @@ h2{
   text-align: center;
   color: white;
   left: -1%;
-  width: 105%;
+  width: 101%;
   bottom: 0;
   height: 5rem; 
 }

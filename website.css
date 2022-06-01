@@ -116,7 +116,6 @@ h2{
   /* enable scrolling when webpage is resized */
   body{
     overflow-y: scroll;
-
   }
   /* fixes format of headers when webpage is resized */
   h1{
@@ -136,7 +135,6 @@ h2{
     max-width: 85%;
     padding-bottom: 13%;
   }
-
     /* fixes format of details when webpage is resized */
   #name{
     display: block;

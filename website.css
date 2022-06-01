@@ -78,7 +78,6 @@ h2{
   margin-left: 445px;
   margin-top: -50px;
 }
-
 /* role represents the my role on the webpage (under my name) that has different styles to it */
 #role{
   position:relative;
@@ -88,7 +87,6 @@ h2{
   font-size: 120%;
   margin-left: 445px;
 }
-
 /* description represents the texts on the webpage (my history and knowledge) that has different styles to it */
 #description{
   position:relative;
@@ -99,7 +97,6 @@ h2{
   margin-left: 445px;
   max-width: 700px;
 }
-
 /* list represents the two columns on the webpage (code languages) */
 #list{
   position:absolute;
@@ -112,12 +109,14 @@ h2{
   columns: 2;
   list-style:"\2023 \0020";
 }
-/* if screen is at a certain width, texts and images will be resized to accomodate to the changes*/
+
+/* if screen is at a certain width & height, texts and images will be resized to accomodate to the changes*/
 @media screen and (max-width: 650px),
         screen and (max-width:300px){
   /* enable scrolling when webpage is resized */
   body{
     overflow-y: scroll;
+
   }
   /* fixes format of headers when webpage is resized */
   h1{
@@ -129,7 +128,6 @@ h2{
     margin-left: 6%;
     font-size: 200%;
   }
-
   #container{
     margin-top: 2em;
   }

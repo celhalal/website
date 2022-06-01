@@ -4,6 +4,10 @@
 * logo: will display a logo in the top left corner (linked to another webpage & has an alert before switching pages)
 */
 
+#wrapper {
+  position: relative;
+}
+
 parent {
   top: 0;
   left: 0;
@@ -106,12 +110,13 @@ h2{
   margin-left: 455px;
   max-width: 700px;
   columns: 2;
+  list-style:"\2023 \0020";
 }
-
 /* if screen is at a certain width, texts and images will be resized to accomodate to the changes*/
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px),
+        screen and (max-width:300px){
   /* enable scrolling when webpage is resized */
-  html, body{
+  body{
     overflow-y: scroll;
   }
   /* fixes format of headers when webpage is resized */
@@ -153,11 +158,6 @@ h2{
     clear: both;
     height: auto;
   }
-
-    /* keeps footer at the bottom of the page as the height of the webpage increases */
-  #footer{
-    margin-bottom: -21%;
-  }
 }
 
 /* footer represents the bottom of the webpage */
@@ -167,8 +167,8 @@ h2{
   background:black;
   text-align: center;
   color: white;
-  left: -1%;
-  width: 101%;
-  bottom: 0;
-  height: 5rem; 
+  left: -2%;
+  width: 102%;
+  bottom: -24%;
+  height: 6rem; 
 }
